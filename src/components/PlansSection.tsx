@@ -96,7 +96,7 @@ const PlansSection = () => {
                 </li>
               ))}
             </ul>
-            <a href={WPP('Olá Maria! Tenho interesse no plano Consultoria Online!')} target="_blank" rel="noopener noreferrer"
+            <a href={tri ? WPP('Olá Maria! Tenho interesse no plano Consultoria Online Trimestral!') : "https://pages.mfitpersonal.com.br/p/2mf7?checkout=true"} target="_blank" rel="noopener noreferrer"
               className="btn-glass-outline-gold w-full text-center block">
               Começar agora
             </a>
