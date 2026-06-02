@@ -96,7 +96,7 @@ const PlansSection = () => {
                 </li>
               ))}
             </ul>
-            <a href={tri ? WPP('Olá Maria! Tenho interesse no plano Consultoria Online Trimestral!') : "https://pages.mfitpersonal.com.br/p/2mf7?checkout=true"} target="_blank" rel="noopener noreferrer"
+            <a href={tri ? "https://pages.mfitpersonal.com.br/p/2mk2?checkout=true" : "https://pages.mfitpersonal.com.br/p/2mf7?checkout=true"} target="_blank" rel="noopener noreferrer"
               className="btn-glass-outline-gold w-full text-center block">
               Começar agora
             </a>
@@ -140,7 +140,7 @@ const PlansSection = () => {
                 </li>
               ))}
             </ul>
-            <a href={WPP('Olá Maria! Tenho interesse no plano Personal Assistido por vídeo!')} target="_blank" rel="noopener noreferrer"
+            <a href={tri ? WPP('Olá Maria! Tenho interesse no plano Personal Assistido Trimestral!') : (assistidoFreq === 2 ? "https://pages.mfitpersonal.com.br/p/2mk6?checkout=true" : "https://pages.mfitpersonal.com.br/p/2mka?checkout=true")} target="_blank" rel="noopener noreferrer"
               className="btn-glass-gold w-full text-center block">
               Quero esse plano
             </a>
