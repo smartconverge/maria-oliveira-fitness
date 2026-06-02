@@ -140,7 +140,7 @@ const PlansSection = () => {
                 </li>
               ))}
             </ul>
-            <a href={tri ? WPP('Olá Maria! Tenho interesse no plano Personal Assistido Trimestral!') : (assistidoFreq === 2 ? "https://pages.mfitpersonal.com.br/p/2mk6?checkout=true" : "https://pages.mfitpersonal.com.br/p/2mka?checkout=true")} target="_blank" rel="noopener noreferrer"
+            <a href={tri ? (assistidoFreq === 2 ? "https://pages.mfitpersonal.com.br/p/2mke?checkout=true" : "https://pages.mfitpersonal.com.br/p/2mkf?checkout=true") : (assistidoFreq === 2 ? "https://pages.mfitpersonal.com.br/p/2mk6?checkout=true" : "https://pages.mfitpersonal.com.br/p/2mka?checkout=true")} target="_blank" rel="noopener noreferrer"
               className="btn-glass-gold w-full text-center block">
               Quero esse plano
             </a>
@@ -189,7 +189,7 @@ const PlansSection = () => {
                 </li>
               ))}
             </ul>
-            <a href={tri ? WPP('Olá Maria! Tenho interesse no plano Personal Presencial Trimestral em Bragança Paulista!') : (presencialFreq === 1 ? "https://pages.mfitpersonal.com.br/p/2mkb?checkout=true" : presencialFreq === 2 ? "https://pages.mfitpersonal.com.br/p/2mkc?checkout=true" : "https://pages.mfitpersonal.com.br/p/2mkd?checkout=true")} target="_blank" rel="noopener noreferrer"
+            <a href={tri ? (presencialFreq === 1 ? "https://pages.mfitpersonal.com.br/p/2mkj?checkout=true" : presencialFreq === 2 ? "https://pages.mfitpersonal.com.br/p/2mkk?checkout=true" : "https://pages.mfitpersonal.com.br/p/2mkl?checkout=true") : (presencialFreq === 1 ? "https://pages.mfitpersonal.com.br/p/2mkg?checkout=true" : presencialFreq === 2 ? "https://pages.mfitpersonal.com.br/p/2mkh?checkout=true" : "https://pages.mfitpersonal.com.br/p/2mki?checkout=true")} target="_blank" rel="noopener noreferrer"
               className="btn-glass-rose w-full text-center block">
               Quero esse plano
             </a>
