@@ -9,7 +9,7 @@ const PlansSection = () => {
   const [assistidoFreq, setAssistidoFreq] = useState<2|3>(2);
   const [presencialFreq, setPresencialFreq] = useState<1|2|3>(1);
 
-  const presencialBase: Record<1|2|3, number> = { 1: 360, 2: 640, 3: 840 };
+  const presencialBase: Record<1|2|3, number> = { 1: 359, 2: 640, 3: 840 };
   const assistidoBase: Record<2|3, number> = { 2: 480, 3: 620 };
 
   const fmt = (n: number) => n.toLocaleString('pt-BR');
@@ -189,7 +189,7 @@ const PlansSection = () => {
                 </li>
               ))}
             </ul>
-            <a href={WPP('Olá Maria! Tenho interesse no plano Personal Presencial em Bragança Paulista!')} target="_blank" rel="noopener noreferrer"
+            <a href={tri ? WPP('Olá Maria! Tenho interesse no plano Personal Presencial Trimestral em Bragança Paulista!') : (presencialFreq === 1 ? "https://pages.mfitpersonal.com.br/p/2mkb?checkout=true" : presencialFreq === 2 ? "https://pages.mfitpersonal.com.br/p/2mkc?checkout=true" : "https://pages.mfitpersonal.com.br/p/2mkd?checkout=true")} target="_blank" rel="noopener noreferrer"
               className="btn-glass-rose w-full text-center block">
               Quero esse plano
             </a>
